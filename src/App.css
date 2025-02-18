@@ -1,0 +1,44 @@
+#root {
+  width: 100%;
+}
+
+.text-primary-300 {
+  color: #56ad79;
+}
+
+.text-primary-400 {
+  color: #56ad79;
+}
+
+.text-primary-500 {
+  color: #37925f;
+}
+
+.text-primary-600 {
+  color: #26754a;
+}
+
+.text-primary-700 {
+  color: #1f5d3d;
+}
+
+.text-primary-800 {
+  color: #1b4a32;
+}
+
+.list-dsc>li {
+  list-style-type: circle;
+}
+
+/* Tạo hiệu ứng khi hover */
+.li-glass:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background: rgba(255, 255, 255, 0.034);
+  border-radius: 8px;
+  backdrop-filter: blur(1rem);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 1s ease, box-shadow 1s ease;
+}
