@@ -35,11 +35,11 @@ const SideProjectsSection = () => {
     return (
         <div className='mb-10'>
             <div>
-                <h3 className="p-6">
+                <h3 className="pb-6 md:py-3 md:p-6">
                     <span className='text-primary-500 font-normal'>04. </span>
                     Side Projects I’ve Built
                 </h3>
-                <div>
+                <div className="flex flex-col gap-6 md:gap-2">
                     {projects.map((project, index) => (
                         <div key={index} className="flex flex-col gap-5 md:p-6 li-glass">
                             <div className="flex items-center gap-6">

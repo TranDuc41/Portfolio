@@ -81,7 +81,7 @@ function App() {
                 <span className='text-white/50'>Designed & Developed by Tran Duc</span>
               </div>
             </div>
-            <div className='lg:col-span-7 py-20 max-lg:pb-20 overflow-y-auto'>
+            <div className='lg:col-span-7 py-8 max-lg:pb-20 overflow-y-auto'>
               <div ref={aboutRef} id="about"><About /></div>
               <div ref={experienceRef} id="experience"><Worked /></div>
               <div ref={projectsRef} id="projects"><ProjectsSection /></div>

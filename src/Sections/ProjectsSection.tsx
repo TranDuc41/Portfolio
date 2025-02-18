@@ -47,19 +47,19 @@ const ProjectsSection = () => {
     return (
         <div className='mb-10'>
             <div>
-                <h3 className="p-6">
+                <h3 className="pb-6 md:py-3 md:p-6">
                     <span className='text-primary-500 font-normal'>03. </span>
                     Projects I've participated in
                     <span className='text-white/30'> (some projects cannot be disclosed due to privacy policies)</span>
                 </h3>
                 <ol>
                     {projects.map((project, index) => (
-                        <li key={index}>
+                        <li key={index} className="mb-10 md:mb-2">
                             <div className='grid grid-cols-12 md:p-6 li-glass'>
                                 <div className='col-span-12 md:col-span-3 max-h-96 overflow-hidden'>
                                     <img src={project.img_url} alt={project.title} className="w-full" />
                                 </div>
-                                <div className='col-span-12 md:col-span-9 ml-4'>
+                                <div className='col-span-12 mt-4 md:col-span-9 md:ml-4'>
                                     <div className='flex flex-col gap-4'>
                                         <div className='mb-2 flex gap-3'>
                                             <a href={project.url} target='_blank' className="text-xl leading-7 font-medium text-primary-500 w-auto">{project.title}</a>

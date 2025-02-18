@@ -71,19 +71,19 @@ const Worked = () => {
     return (
         <div className='mb-10'>
             <div>
-                <h3 className='p-6'>
+                <h3 className='pb-6 md:py-3 md:p-6'>
                     <span className='text-primary-500 font-normal'>02. </span>
                     Where I've worked
                 </h3>
-                <ol>
+                <ol className="flex flex-col gap-6 md:gap-2">
                     {jobs.map((job) => (
                         <li key={job.id}>
                             <div className='grid grid-cols-12 md:p-6 li-glass'>
                                 <div className='col-span-12 md:col-span-3'>
                                     <p className="text-sm text-white/60 md:mt-1">{job.duration}</p>
                                 </div>
-                                <div className='col-span-12 md:col-span-9 ml-4'>
-                                    <div className='flex flex-col gap-4'>
+                                <div className='col-span-12 md:col-span-9 md:ml-4'>
+                                    <div className='flex flex-col md:gap-4'>
                                         <p className='text-lg leading-7 font-medium mb-2 w-auto'>
                                             {job.role}, 
                                             <a href={job.url} target='_blank' className="text-primary-500"> {job.company}</a>
