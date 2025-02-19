@@ -1,5 +1,35 @@
 const projects = [
     {
+        title: 'Ecommerce App',
+        url: 'https://shoesshop-production.up.railway.app/',
+        git_url: 'https://github.com/TranDuc41/shoes_shop',
+        short_desc: 'A shoe-selling website built with Laravel, Inertia, and React. I created this website to learn and apply new knowledge. Due to limited time, the website is still under development, and I will update it whenever I have free time.',
+        goal: 'Create a website that is compatible across multiple devices and optimized for speed and user experience.',
+        list_features: [
+            {
+                desc: 'Deployed with Railway: Hosted on Railway and automatic updates with every Git commit.'
+            },
+            {
+                desc: 'Responsive Design: Optimized for all screen sizes with Tailwind CSS, providing an engaging experience on both desktop and mobile.'
+            },
+            {
+                desc: 'Send verification emails.'
+            },
+            {
+                desc: 'Integrate VnPay payment.'
+            },
+            {
+                desc: 'Use Filament for the admin panel.'
+            },
+            {
+                desc: 'Dynamically assign admin roles for different components.'
+            },
+            {
+                desc: 'Manage the remaining stock quantity.'
+            }
+        ]
+    },
+    {
         title: 'Movie App',
         url: 'https://tranduc-movie.vercel.app/',
         git_url: 'https://github.com/TranDuc41/movie-nextjs',
