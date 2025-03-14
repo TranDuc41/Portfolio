@@ -89,7 +89,7 @@ const Worked = () => {
                                             <a href={job.url} target='_blank' className="text-primary-500"> {job.company}</a>
                                         </p>
                                         <span>{job.description}</span>
-                                        <ul className='flex flex-col gap-3 list-dsc pl-5 text-white/60'>
+                                        <ul className='flex flex-col gap-3 list-dsc pl-5 text-black/80 dark:text-white/60'>
                                             {job.list_dsc.map((item, index) => (
                                                 <li key={index}>{item.description}</li>
                                             ))}

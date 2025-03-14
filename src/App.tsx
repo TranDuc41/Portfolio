@@ -39,17 +39,17 @@ function App() {
           <div className='grid grid-cols-1 lg:grid-cols-12'>
             <div className='lg:col-span-5 p-4 lg:h-screen lg:sticky top-0 flex flex-col gap-4 lg:w-11/12 lg:pt-12 lg:pb-6 overflow-y-auto scroll-smooth-thin'>
               <div className='flex flex-col gap-4 mb-3'>
-                <p className='text-primary-400'>Hi, I am</p>
+                <p className='text-primary-600 dark:text-primary-400'>Hi, I am</p>
               </div>
               <div>
                 <h2 className='text-4xl font-bold'>Tran Y Duc</h2>
               </div>
               <p className='text-xl font-light'>
-                <span className='text-primary-400'>Backend </span>
+                <span className='text-primary-600 dark:text-primary-400'>Backend </span>
                 Developer
               </p>
-              <p className='text-base font-light'>Laravel, PHP, React, Node</p>
-              <p className='opacity-80 text-base font-light'>Backend developer with 1+ years of experience in building scalable web applications using Laravel and React. Skilled in UX optimization and working with cross-functional teams.</p>
+              <p className='text-base font-light text-black dark:text-white'>Laravel, PHP, React, Node</p>
+              <p className='dark:opacity-80 text-base font-light text-black dark:text-white'>Backend developer with 1+ years of experience in building scalable web applications using Laravel and React. Skilled in UX optimization and working with cross-functional teams.</p>
               <div className='flex flex-col gap-3 mb-3'>
                 {links.map((link, index) => (
                   <p

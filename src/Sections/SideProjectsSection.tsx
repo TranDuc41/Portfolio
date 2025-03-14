@@ -84,7 +84,7 @@ const SideProjectsSection = () => {
                             <div>
                                 <span>{project.short_desc}</span>
                             </div>
-                            <ul className="list-dsc flex flex-col gap-3 text-white/60">
+                            <ul className="list-dsc flex flex-col gap-3 text-black/80 dark:text-white/60">
                                 <span>Main Features:</span>
                                 {project.list_features.map((features, index) => (
                                     <li key={index} className="ml-5">{features.desc}</li>

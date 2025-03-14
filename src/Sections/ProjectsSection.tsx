@@ -66,11 +66,11 @@ const ProjectsSection = () => {
                                             <img src="./icons8-link-48.png" alt="icon link" className="w-6 fill-white" />
                                         </div>
                                         <span>{project.short_desc}</span>
-                                        <ul className="flex flex-col gap-3 list-dsc text-white/60">
+                                        <ul className="flex flex-col gap-3 list-dsc text-black/80 dark:text-white/60">
                                             <span>Team Composition:</span>
                                             <li className="ml-5">{project.team_size}</li>
                                         </ul>
-                                        <ul className='flex flex-col gap-3 list-dsc text-white/60'>
+                                        <ul className='flex flex-col gap-3 list-dsc text-black/80 dark:text-white/60'>
                                             <span>My Responsibility:</span>
                                             {project.list_dsc.map((item, index) => (
                                                 <li key={index} className="ml-5">{item.desc}</li>
