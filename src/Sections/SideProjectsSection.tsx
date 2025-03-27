@@ -1,13 +1,13 @@
 const projects = [
     {
         title: 'Ecommerce App',
-        url: 'https://shoesshop-production.up.railway.app/',
+        url: 'https://shoes-shop.ducdev.id.vn',
         git_url: 'https://github.com/TranDuc41/shoes_shop',
         short_desc: 'A shoe-selling website built with Laravel, Inertia, and React. I created this website to learn and apply new knowledge. Due to limited time, the website is still under development, and I will update it whenever I have free time.',
         goal: 'Create a website that is compatible across multiple devices and optimized for speed and user experience.',
         list_features: [
             {
-                desc: 'Deployed with Railway: Hosted on Railway and automatic updates with every Git commit.'
+                desc: 'Deployed on hosting with automatic updates on every Git commit.'
             },
             {
                 desc: 'Responsive Design: Optimized for all screen sizes with Tailwind CSS, providing an engaging experience on both desktop and mobile.'
