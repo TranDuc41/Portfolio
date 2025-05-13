@@ -1,5 +1,29 @@
 const projects = [
     {
+        title: 'Tea & Coffee Website',
+        url: 'https://tea-coffee-ui-01.ducdev.id.vn',
+        git_url: '',
+        short_desc: "The website interface helps the store showcase its available beverages, update promotions and news, making it easier for users to access. It also serves as the store's official website to build credibility and promote the brand.",
+        goal: "To create a modern, responsive, and easy-to-manage web interface for a beverage store, aiming to improve online presence, attract customers, and enhance brand trust.",
+        list_features: [
+            {
+                "desc": "Deployed with VPS Ubuntu: Hosted on VPS and automatic updates with every Git commit."
+            },
+            {
+                "desc": "Responsive Design: Optimized for all screen sizes with Tailwind CSS, providing an engaging experience on both desktop and mobile."
+            },
+            {
+                "desc": "Dynamic Content: Easily update drinks, promotions, and news without changing the code."
+            },
+            {
+                "desc": "SEO Friendly: Structured layout and meta tags to enhance search engine visibility."
+            },
+            {
+                "desc": "Performance Optimized: Fast loading speed with image optimization and caching strategies."
+            }
+        ]
+    },
+    {
         title: 'Ecommerce App',
         url: 'https://shoes-shop.ducdev.id.vn',
         git_url: 'https://github.com/TranDuc41/shoes_shop',
