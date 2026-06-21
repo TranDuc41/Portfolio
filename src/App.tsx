@@ -57,17 +57,20 @@ function App() {
               </div>
               <p className="text-xl font-light">
                 <span className="text-primary-600 dark:text-primary-400">
-                  Backend{" "}
+                  Full-stack{" "}
                 </span>
                 Developer
               </p>
               <p className="text-base font-light text-black dark:text-white">
-                Laravel, PHP, React, Node
+                Laravel, PHP, React, Nextjs, Node, Docker,...
               </p>
               <p className="dark:opacity-80 text-base font-light text-black dark:text-white">
-                Backend developer with 1+ years of experience in building
-                scalable web applications using Laravel and React. Skilled in UX
-                optimization and working with cross-functional teams.
+                Backend Developer with 2+ years of experience building scalable
+                web applications and digital platforms. Proficient in Laravel,
+                PHP, Node.js, React, and Next.js, with hands-on experience in
+                API design, database optimization, cloud deployment, and
+                SEO-focused development. Passionate about creating
+                high-performance products that deliver real business value.
               </p>
               <div className="flex flex-col gap-3 mb-3">
                 {links.map((link, index) => (
@@ -89,7 +92,7 @@ function App() {
               </div>
               <div>
                 <a
-                  href="./TranYDuc-CV_PHP_Developer.pdf"
+                  href="./Tran-Y-Duc_CV-Backend.pdf"
                   target="_blank"
                   className="relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-r from-green-400 to-green-600 text-white focus:ring-0 focus:outline-none shadow-lg shadow-green-500/50"
                 >
