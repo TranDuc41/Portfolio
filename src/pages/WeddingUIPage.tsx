@@ -59,9 +59,23 @@ const templates = [
     title: "Mẫu thiệp cưới online 10",
     img_url: "./screencapture-wedding-ui-10.png",
   },
+  {
+    id: 11,
+    url: "https://wedding-ui-11.vercel.app/",
+    title: "Mẫu thiệp cưới online 11",
+    img_url: "./screencapture-wedding-ui-11.png",
+  },
+  {
+    id: 12,
+    url: "https://wedding-ui-12.vercel.app/",
+    title: "Mẫu thiệp cưới online 12",
+    img_url: "./screencapture-wedding-ui-12.png",
+  },
 ];
 
 export default function WeddingUIPage() {
+  const sortedTemplates = [...templates].sort((a, b) => b.id - a.id);
+
   return (
     <main className="min-h-screen py-8 sm:py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -76,7 +90,7 @@ export default function WeddingUIPage() {
         </div>
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-          {templates.map((item) => (
+          {sortedTemplates.map((item) => (
             <div
               key={item.id}
               className="overflow-hidden rounded-2xl border bg-card shadow-sm"
