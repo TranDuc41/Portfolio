@@ -1,10 +1,10 @@
 const templates = [
-  {
-    id: 1,
-    url: "https://wedding-ui-01.vercel.app/",
-    title: "Mẫu thiệp cưới online 01",
-    img_url: "",
-  },
+  // {
+  //   id: 1,
+  //   url: "https://wedding-ui-01.vercel.app/",
+  //   title: "Mẫu thiệp cưới online 01",
+  //   img_url: "",
+  // },
   {
     id: 2,
     url: "https://wedding-ui-02.vercel.app/",
@@ -23,35 +23,35 @@ const templates = [
     title: "Mẫu thiệp cưới online 04",
     img_url: "./screencapture-wedding-ui-04.jpg",
   },
-  {
-    id: 5,
-    url: "https://wedding-ui-05.vercel.app/",
-    title: "Mẫu thiệp cưới online 05",
-    img_url: "",
-  },
+  // {
+  //   id: 5,
+  //   url: "https://wedding-ui-05.vercel.app/",
+  //   title: "Mẫu thiệp cưới online 05",
+  //   img_url: "",
+  // },
   {
     id: 6,
     url: "https://wedding-ui-06.vercel.app/",
     title: "Mẫu thiệp cưới online 06",
     img_url: "./screencapture-wedding-ui-06.png",
   },
-  {
-    id: 7,
-    url: "https://wedding-ui-07.vercel.app/",
-    title: "Mẫu thiệp cưới online 07",
-    img_url: "",
-  },
-  {
-    id: 8,
-    url: "https://wedding-ui-08.vercel.app/",
-    title: "Mẫu thiệp cưới online 08",
-    img_url: "",
-  },
+  // {
+  //   id: 7,
+  //   url: "https://wedding-ui-07.vercel.app/",
+  //   title: "Mẫu thiệp cưới online 07",
+  //   img_url: "",
+  // },
+  // {
+  //   id: 8,
+  //   url: "https://wedding-ui-08.vercel.app/",
+  //   title: "Mẫu thiệp cưới online 08",
+  //   img_url: "",
+  // },
   {
     id: 9,
     url: "https://wedding-ui-09.vercel.app/",
     title: "Mẫu thiệp cưới online 09",
-    img_url: "",
+    img_url: "./screencapture-wedding-ui-09.png",
   },
   {
     id: 10,
