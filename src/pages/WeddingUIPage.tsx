@@ -71,6 +71,12 @@ const templates = [
     title: "Mẫu thiệp cưới online 12",
     img_url: "./screencapture-wedding-ui-12.png",
   },
+  {
+    id: 13,
+    url: "https://wedding-ui-13.vercel.app/",
+    title: "Mẫu thiệp cưới online 13",
+    img_url: "./screencapture-wedding-ui-13.png",
+  },
 ];
 
 export default function WeddingUIPage() {
@@ -114,24 +120,26 @@ export default function WeddingUIPage() {
               </div>
 
               {/* Info */}
-              <div className="flex items-center justify-between gap-3 p-4">
-                <div className="min-w-0">
-                  <p className="truncate font-semibold">{item.title}</p>
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block"
+              >
+                <div className="flex items-center justify-between gap-3 p-4">
+                  <div className="min-w-0">
+                    <p className="truncate font-semibold">{item.title}</p>
 
-                  <p className="mt-1 text-xs text-muted-foreground">
-                    Template #{String(item.id).padStart(2, "0")}
-                  </p>
+                    <p className="mt-1 text-xs text-muted-foreground">
+                      Template #{String(item.id).padStart(2, "0")}
+                    </p>
+                  </div>
+
+                  <span className="shrink-0 rounded-lg border px-3 py-2 text-sm font-medium transition group-hover:bg-accent">
+                    Xem mẫu
+                  </span>
                 </div>
-
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="shrink-0 rounded-lg border px-3 py-2 text-sm font-medium transition hover:bg-accent"
-                >
-                  Xem mẫu
-                </a>
-              </div>
+              </a>
             </div>
           ))}
         </div>
